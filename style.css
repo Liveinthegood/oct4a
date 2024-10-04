@@ -1,0 +1,181 @@
+
+
+.img-banner {
+
+    display: none;
+}
+
+.img-banner2 {
+
+    display: block;
+    width:100%;
+    padding-bottom: 55px;
+}
+
+#features{
+
+    padding:7% 15%;
+    background-color: #FFC20E;
+    position: relative;
+  
+  }
+
+.rolltide2{
+
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.picture {
+
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .picAcrisure {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .meetplayers{
+
+    padding-top: 25px;
+    font-size: 90px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+  .welcome{
+
+    text-align: center;
+    font-size: 75px;
+    font-family:Arial, Helvetica, sans-serif;
+
+  
+  }
+
+  #testimonials {
+
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: black;
+
+
+  }
+
+  .HeaderTrueLove{
+
+    text-align: center;
+  }
+
+  .letsmeet{
+
+    background-color: black;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .pro{
+
+    color: red;
+  }
+
+
+  .roster{
+
+    color: yellow;
+    size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  .footer {
+
+    padding: 50px;
+    text-align: center;
+    font-size: 38px;
+    background-color: #FFC20E;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  #slider {
+
+        overflow: hidden;
+
+  }
+
+  #slider figure {
+
+        position: relative;
+        width: 500%;
+        margin: 0;
+        left: 0;
+        animation: 20s slider infinite;
+  }
+
+  #slider figure img {
+
+    float: left;
+    width: 20%;
+
+  }
+
+  @keyframes slider {
+
+    0% { left: 0;}
+    20% {left: 0;}
+
+    25% { left: -100%;}
+    45% { left: -100%;}
+    50% { left: -200%;}
+    70% {left: -200%;}
+    75% { left: -300%;}
+    95% { left: -300%;}
+
+  }
+
+
+
+    @media only screen and (min-width: 768px) {
+
+
+
+        .img-banner {
+
+            display: block;
+            width: 100%;
+            padding-bottom: 30px;
+
+    }
+
+.img-banner2 {
+
+    display: none;
+    width:100%;
+    padding-bottom: 55px;
+
+    
+}
+
+  
+  }
+
+
+
+
+
